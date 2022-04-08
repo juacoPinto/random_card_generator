@@ -45,13 +45,13 @@ let randomCard = cards => {
   const card = document.createElement("div");
   card.classList.add("card", cardSuit, suit);
   card.innerHTML =
-    '<span class="card-value-suit top">' +
+    '<span class="card-suit top">' +
     cardSuit +
     "</span>" +
-    '<span class="card-suit">' +
+    '<span class="card-value">' +
     cardRank +
     "</span>" +
-    '<span class="card-value-suit bot">' +
+    '<span class="card-suit bot">' +
     cardSuit +
     "</span>";
   document.body.appendChild(card);

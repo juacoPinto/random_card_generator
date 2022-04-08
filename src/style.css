@@ -13,22 +13,22 @@ body {
   border-radius: 15px;
   position: relative;
 }
-.card-value-suit {
+.card-suit {
     display: inline-block;
     position: absolute;
   }
-.card-value-suit.top {
+.card-suit.top {
     top: 5px;
     left: 10px;
     font-size: 70px;
   }
-.card-value-suit.bot {
+.card-suit.bot {
     transform: rotate(180deg);
     bottom: 5px;
     right: 10px;
     font-size: 70px;
   }
-.card-suit {
+.card-value {
     font-size: 100px;
     position: absolute;
     top: 50%;
